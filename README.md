@@ -6,6 +6,7 @@ I'm just a slow-learning student, armed with curiosity and a notebook, copying d
 
 - [outline](./outline.md)
 - [Genetic Relationship Matrix or kinship matrix](./GRM)
+- [pruning](./pruning.md)
 
 But wait—there's more! 📊🤖 As we journey through the world of genomics, I'll also be jotting down some notes on statistics, machine learning, and even deep learning. Whether it's tackling complex algorithms or understanding how data science powers genetic discoveries, you'll find it all here, explained in my usual "copycat" style. ✨
 
