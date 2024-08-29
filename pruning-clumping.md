@@ -31,6 +31,7 @@
 ### 比较
 
 - **Pruning vs Clumping**:
+
   - **Pruning** 更多地是关于去除冗余 SNP ，以得到一组相互独立的 SNP ，通常用于减少多重比较带来的问题，提高统计模型的解释力。
   - **Clumping** 则是将 SNP 按照其连锁不平衡程度和关联强度进行分组，从而识别出可能的独立遗传效应区域。
 
@@ -52,5 +53,5 @@
 
 ### Refer to：
 
-- https://www.cog-genomics.org/plink/1.9/postproc
-- https://www.biostars.org/p/343818/
+- <https://www.cog-genomics.org/plink/1.9/postproc>
+- <https://www.biostars.org/p/343818/>
