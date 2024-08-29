@@ -41,7 +41,7 @@
 
 <center>
 
-![alt text](prune&clumping.png)
+![alt text](./prune-clumping.png)
 
 </center>
 
@@ -50,7 +50,7 @@
 
 在PLINK中提供了 Pruning 和 Clumping 的功能，可以参考plink的命令解释与相关文档
 
-Refer to：
+### Refer to：
 
-https://www.cog-genomics.org/plink/1.9/postproc
-https://www.biostars.org/p/343818/
+- https://www.cog-genomics.org/plink/1.9/postproc
+- https://www.biostars.org/p/343818/
