@@ -1,6 +1,6 @@
 # pruning
 
-在遗传学研究中，识别并移除高度相关的个体的过程通常被称为“pruning” ([与clumping区别](pruning%20and%20clumping.md)) 。这种做法的目的在于减少由于个体间亲缘关系导致的数据冗余，从而提高统计分析的准确性和可靠性。在实际操作中，修剪通常可以在计算GRM之前完成，以确保用于构建GRM的数据集是清洁且独立的。
+在遗传学研究中，识别并移除高度相关的个体的过程通常被称为“pruning” ([与clumping区别](pruning&clumping.md)) 。这种做法的目的在于减少由于个体间亲缘关系导致的数据冗余，从而提高统计分析的准确性和可靠性。在实际操作中，修剪通常可以在计算GRM之前完成，以确保用于构建GRM的数据集是清洁且独立的。
 
 ## 为什么在计算GRM之前进行pruning？
 
@@ -54,4 +54,4 @@ plink --bfile example_indep_pruned \
 ***
 ### Relate to:
 
-[pruning and clumping](./pruning%20and%20clumping.md)
+[pruning and clumping](./pruning&clumping.md)
