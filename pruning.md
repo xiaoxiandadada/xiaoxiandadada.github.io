@@ -47,6 +47,11 @@ plink --bfile example_indep_pruned \
       --out example_grm_pruned
 ````
 
-这会生成一个压缩的GRM矩阵文件example_grm_pruned.grm.gz，以及一个包含样本ID信息的文件example_grm_pruned.grm.id。
+这会生成一个压缩的GRM矩阵文件 example_grm_pruned.grm.gz，以及一个包含样本ID信息的文件 example_grm_pruned.grm.id 。
 
 通过在计算GRM之前进行修剪（pruning），可以确保用于构建GRM的数据集是清洁且独立的。这样做不仅提高了计算效率，还增强了统计分析的准确性和结果的可靠性。具体步骤包括识别独立个体、提取这些个体的数据以及使用修剪后的数据集来计算GRM。这种方法广泛应用于各种遗传学研究中，尤其是在需要考虑个体间遗传相关性的情况下。
+
+***
+### Relate to:
+
+[pruning and clumping](./pruning%20and%20clumping.md)
