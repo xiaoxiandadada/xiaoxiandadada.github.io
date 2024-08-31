@@ -40,11 +40,7 @@
 - **Pruning** 主要用于减少冗余，选择独立的 SNP ，适用于构建GRS或其他需要独立 SNP 的情况。
 - **Clumping** 则是为了识别独立的遗传效应信号，帮助研究者从GWAS结果中分离出真正的关联信号。
 
-<center>
-
 ![alt text](./prune-clumping.png)
-
-</center>
 
 ***
 <br>
