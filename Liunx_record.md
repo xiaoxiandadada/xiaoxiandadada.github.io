@@ -1,10 +1,15 @@
 # awk
 
-###  **`awk options 'pattern {action}' file`**
+<pre>
+<code style="font-weight:bold;"> 
+awk options 'pattern {action}' file
+</code>
+</pre>
 
-- options：是一些选项，用于控制 awk 的行为。
-- pattern：是用于匹配输入数据的模式。如果省略，则 awk 将对所有行进行操作。
-- {action}：是在匹配到模式的行上执行的动作。如果省略，则默认动作是打印整行。
+
+- **options**：是一些选项，用于控制 awk 的行为。
+- **pattern**：是用于匹配输入数据的模式。如果省略，则 awk 将对所有行进行操作。
+- **{action}**：是在匹配到模式的行上执行的动作。如果省略，则默认动作是打印整行。
 
 ## options description 
 - -F <分隔符> 或 --field-separator=<分隔符>： 指定输入字段的分隔符，默认是空格。使用这个选项可以指定不同于默认分隔符的字段分隔符。
@@ -58,7 +63,7 @@ awk 'max < $1 {max = $1} END {print max}' file
 awk '{printf "%-10s %-10s\n", $1, $2}' file
 ```
 
-**筛选出p值小于5×10⁻⁸的行，假设文件名是data.txt**
+### 筛选出p值小于5×10⁻⁸的行，假设文件名是data.txt
 
 读取文件data.txt，并筛选出第13列（即p.value列）小于5×10⁻⁸的行
 ```
@@ -88,3 +93,8 @@ awk -v threshold=0.05 '$13 <= threshold {print}' data.txt
 ```
 awk -v threshold=0.05 '$10 <= threshold' data.txt | wc -l 
 >> significant_data.txt
+```
+
+### Refer to:
+
+- <https://www.runoob.com/linux/linux-comm-awk.html>
