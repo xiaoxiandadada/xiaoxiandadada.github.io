@@ -9,3 +9,7 @@ I'm just a slow-learning student, armed with curiosity and a notebook, copying d
 - [pruning](./src/pruning.md)
 
 But wait—there's more! 📊🤖 As we journey through the world of genomics, I'll also be jotting down some notes on statistics, machine learning, and even deep learning. Whether it's tackling complex algorithms or understanding how data science powers genetic discoveries, you'll find it all here, explained in my usual "copycat" style. ✨
+
+But that's not all! 🎓📚 Alongside all the genomic goodies, I'll also be sharing snippets of my grad school journey—because, let's face it, studying isn't all about coding and crunching data. From tricky problems to lightbulb moments, I'll be jotting down the highs and lows of navigating academia. Consider this my behind-the-scenes notebook, where the real student life unfolds. 💻☕
+
+-[Liunx_record](./Liunx_record.md)
