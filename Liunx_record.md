@@ -1,10 +1,8 @@
 # awk
 
-<pre>
-<code style="font-weight:bold;"> 
+```bash
 awk options 'pattern {action}' file
-</code>
-</pre>
+```
 
 
 - **options**：是一些选项，用于控制 awk 的行为。
@@ -24,73 +22,73 @@ awk options 'pattern {action}' file
 
 ## Examples
 打印整行：
-```
+```bash
 awk '{print}' file
 ```
 
 打印特定列：
-```
+```bash
 awk '{print $1, $2}' file
 ```
 
 使用分隔符指定列：
-```
+```bash
 awk -F',' '{print $1, $2}' file
 ```
 
 打印行数：
-```
+```bash
 awk '{print NR, $0}' file
 ```
 
 打印行数满足条件的行：
-```
+```bash
 awk '/pattern/ {print NR, $0}' file
 ```
 
 计算列的总和：
-```
+```bash
 awk '{sum += $1} END {print sum}' file
 ```
 
 打印最大值：
-```
+```bash
 awk 'max < $1 {max = $1} END {print max}' file
 ```
 
 格式化输出：
-```
+```bash
 awk '{printf "%-10s %-10s\n", $1, $2}' file
 ```
 
 ### 筛选出p值小于5×10⁻⁸的行，假设文件名是data.txt
 
 读取文件data.txt，并筛选出第13列（即p.value列）小于5×10⁻⁸的行
-```
+```bash
 awk '$13 < 5e-8' data.txt
 ```
 `NR==1` 部分确保标题行保留，`$13 < 5e-8` 部分筛选p值小于5×10⁻⁸的行
-```
+```bash
 awk 'NR==1 || $13 < 5e-8' data.txt
 ```
 
 用 `>` 输出筛选出的行数
-```
+```bash
 awk 'NR==1 || $13 < 5e-8' data.txt > significant_data.txt
 ```
 
 `wc -l` 统计显著位点个数
-```
+```bash
 wc -l significant_p_snps.txt
 ```
 
 还可以用 `-v` 定义一个变量 `threshold`
-```
+```bash
 awk -v threshold=0.05 '$13 <= threshold {print}' data.txt
 ```
 
 使用 `>>` 追加信息，不覆盖之前的文件
-```
+```bash
 awk -v threshold=0.05 '$10 <= threshold' data.txt | wc -l 
 >> significant_data.txt
 ```
