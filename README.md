@@ -14,4 +14,7 @@ But wait—there's more! 📊🤖 As we journey through the world of genomics, I
 But that's not all! 🎓📚 Alongside all the genomic goodies, I'll also be sharing snippets of my grad school journey—because, let's face it, studying isn't all about coding and crunching data. From tricky problems to lightbulb moments, I'll be jotting down the highs and lows of navigating academia. Consider this my behind-the-scenes notebook, where the real student life unfolds. 💻☕
 
 - [Liunx_record](./Liunx_record.md)
+
 - [torch knowledge](./torch%20knowledeg.md/)
+  - [configuring-pytorch-environment-in-macos](./torch%20knowledeg/configuring-pytorch-environment-in-macos.md)
+  -  [use torch in Jupyter Book](./torch%20knowledeg/)
