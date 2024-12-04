@@ -17,6 +17,6 @@ But that's not all! 🎓📚 Alongside all the genomic goodies, I'll also be sha
 
 - [Liunx_record](./Liunx_record.md)
 
-- [torch knowledge](./torch-20knowledeg/)
-  - [configuring pytorch environment in macos](./torch-20knowledeg/configuring-pytorch-environment-in-macos.md)
-  - [use torch in Jupyter Book](./torch-20knowledeg/use%20torch%20in%20jupyter.md)
+- [torch knowledge](./torch-knowledge/)
+  - [configuring pytorch environment in macos](./torch-knowledge/configuring-pytorch-environment-in-macos.md)
+  - [use torch in Jupyter Book](./torch-knowledge/use-torch-in-jupyter.md)
