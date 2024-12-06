@@ -41,7 +41,7 @@
 ## 总结对比
 
 | **选项** | **算法**   | **扩展名**  | **压缩率（高→低）** | **压缩速度（快→慢）** | **解压速度（快→慢）** | **适用场景**|
-|----------|------------|-------------|----------------------|-----------------------|-----------------------|------------------------------------------------|
+|---|-----|------|------|-----|-----|------|
 | `-z`| gzip  | `.tar.gz`   | ⭐⭐  | ⭐⭐⭐  | ⭐⭐⭐  | 日常压缩需求，快速处理和兼容性高。   |
 | `-j`| bzip2 | `.tar.bz2`  | ⭐⭐⭐ | ⭐⭐   | ⭐    | 更高压缩率需求，但时间不是首要问题。 |
 | `-J`| xz    | `.tar.xz`   | ⭐⭐⭐⭐| ⭐    | ⭐⭐   | 空间有限或需要最高压缩率的存档需求。 |
@@ -50,23 +50,39 @@
 
 ## 使用示例
 
-1. **使用 Gzip**:
+1\. **使用 Gzip**:
 
 ```bash
-   tar -czf archive.tar.gz folder/
-   tar -xzf archive.tar.gz
+tar -czf archive.tar.gz folder/
+tar -xzf archive.tar.gz
 ```
 
-2. **使用 Bzip2**:  
+2\. **使用 Bzip2**:  
 
 ```bash
 tar -cjf archive.tar.bz2 folder/
 tar -xjf archive.tar.bz2
 ```
 
-3. **使用 xz**:
+3\. **使用 xz**:
 
 ```bash
 tar -cJf archive.tar.xz folder/
 tar -xJf archive.tar.xz
 ```
+
+### Attention
+
+与大部分 Linux 命令相同，tar 命令允许将多个单字母（使用单个 - 符号的）选项组合为一个参数，便于用户输入。例如，以下命令是等价的：
+
+``` bash
+tar -c -z -v -f target.tar test/
+tar -czvf target.tar test/
+tar -f target.tar -czv test/
+```
+
+---
+
+## Remark
+
+根据需求选择合适的选项：压缩率优先用 xz，速度优先用 gzip，压缩和速度折中用 bzip2。
