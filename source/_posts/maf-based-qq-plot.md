@@ -1,3 +1,8 @@
+---
+title: MAF-based QQ Plot
+date: 2024-12-06
+---
+
 # MAF-Based QQ Plot
 
 做GWAS的过程中会发现用R包 `qqnorm（）` 画QQ 图有点 unattractive，因此可以尝试画分类的 QQ 图。

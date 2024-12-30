@@ -1,3 +1,8 @@
+---
+title: Convert GDS Format to VCF Format
+date: 2024-12-06
+---
+
 a. 创建下载目录（可选）
 为了组织文件，建议在下载前创建一个专门的目录：
 
