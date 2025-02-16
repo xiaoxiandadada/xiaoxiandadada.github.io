@@ -1,5 +1,5 @@
 ---
-title: Hello World
+title: introduction
 ---
 # GWAS Note-Taker
 
