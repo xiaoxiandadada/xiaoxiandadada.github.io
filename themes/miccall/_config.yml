@@ -28,9 +28,9 @@ Nav:
         
     pages:
         GWAS: 
-            link: "/about/"
+            link: "/GWAS/"
         DL-notes :
-            link: "/group/"
+            link: "/DL/"
         Pictures :
             link: "/gallery/"
         随手写的 :
