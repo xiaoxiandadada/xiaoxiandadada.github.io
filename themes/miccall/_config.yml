@@ -34,7 +34,7 @@ Nav:
         Pictures :
             link: "/gallery/"
         随手写的 :
-            link: "/tag/"
+            link: "/paper/"
         #自定义标签名
         #   link：“路径”
 
