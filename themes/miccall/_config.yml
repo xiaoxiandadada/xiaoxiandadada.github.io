@@ -38,13 +38,13 @@ Nav:
 
 MainFirst:
     name: Pursuing Freedom.
-    description: Writing Poetry in The Vanity Fair.  
+    description: Writing Poetry in The Vanity Fair.
     pic_url: /images/me.jpg
     goto_ulr: ""
 
 Gallery :
-    title: Mr.metro 
-    description: Just another fine responsive 
+    title: Visual Poetry.
+    description: Carve words into stone.
 
 # ---------------------------------------------------------------
 # Style Settings
