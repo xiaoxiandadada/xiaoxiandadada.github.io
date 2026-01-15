@@ -28,13 +28,13 @@ Nav:
         
     pages:
         GWAS: 
-            link: "/GWAS/"
+            link: "/categories/GWAS/"
         DL-notes :
-            link: "/DL/"
+            link: "/categories/DL-notes/"
         Pictures :
             link: "/gallery/"
         随手写的 :
-            link: "/paper/"
+            link: "/tags/"
         #自定义标签名
         #   link：“路径”
 

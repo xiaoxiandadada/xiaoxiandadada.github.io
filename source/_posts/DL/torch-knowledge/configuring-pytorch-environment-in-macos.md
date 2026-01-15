@@ -1,3 +1,8 @@
+---
+title: Configuring Pytorch Environment in macOS
+date: 2026-01-15 15:35:40
+categories: [DL-notes]
+---
 # Configuring Pytorch Environment in macOS
 
 这里我没有用推荐的Python 3.9 版本配置torch环境，而是用了最新的python 3.12 版本，后续有使用问题再更新。

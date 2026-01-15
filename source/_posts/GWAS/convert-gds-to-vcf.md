@@ -1,6 +1,7 @@
 ---
 title: Convert GDS Format to VCF Format
 date: 2024-12-06
+categories: [GWAS]
 ---
 
 a. 创建下载目录（可选）

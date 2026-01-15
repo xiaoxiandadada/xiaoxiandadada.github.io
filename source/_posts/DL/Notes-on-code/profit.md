@@ -1,3 +1,8 @@
+---
+title: profit
+date: 2026-01-15 15:35:40
+categories: [DL-notes]
+---
 # profit
 
 排除掉vscode中遍历的大内存文件

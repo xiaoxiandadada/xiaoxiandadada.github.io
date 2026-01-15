@@ -1,3 +1,8 @@
+---
+title: Chapter 4 ~ 5 supplementary
+date: 2026-01-15 15:35:40
+categories: [DL-notes]
+---
 # Chapter 4 ~ 5 supplementary
 
 ## 利普希茨连续 (Lipschitz continuous)

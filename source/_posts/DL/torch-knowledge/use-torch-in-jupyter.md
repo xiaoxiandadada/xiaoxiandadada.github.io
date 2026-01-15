@@ -1,3 +1,8 @@
+---
+title: use torch in Jupyter Notebook
+date: 2026-01-15 15:35:40
+categories: [DL-notes]
+---
 # use torch in Jupyter Notebook
 
 在搭好pytorch的环境后，希望能够在 Jupyter Notebook 里面尝试运行一下，但选择 Python 内核的时候有一些疑问，似乎选择conda内置的 python 环境并不 work，然后探索了一下, 可以给 Jupyter Notebook 添加内核(as a kernel)
