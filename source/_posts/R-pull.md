@@ -10,6 +10,7 @@
 * [R Packages（Hadley）发布章节](https://r-pkgs.org/release.html)
 
 ---
+thumbnail: /images/thumbnails/thumb_R-pull.jpg
 
 ### 1. 本地检查
 

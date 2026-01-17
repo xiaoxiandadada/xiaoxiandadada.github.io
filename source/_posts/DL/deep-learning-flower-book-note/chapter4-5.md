@@ -1,6 +1,7 @@
 ---
 title: Chapter 4 ~ 5 supplementary
 date: 2026-01-15 15:35:40
+thumbnail: /images/thumbnails/thumb_chapter4-5.jpg
 categories: [DL-notes]
 ---
 # Chapter 4 ~ 5 supplementary

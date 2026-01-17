@@ -1,4 +1,5 @@
 ---
+thumbnail: /images/thumbnails/thumb_introduction.jpg
 title: introduction
 ---
 # GWAS Note-Taker

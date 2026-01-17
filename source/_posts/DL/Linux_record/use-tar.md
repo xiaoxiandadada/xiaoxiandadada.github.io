@@ -1,6 +1,7 @@
 ---
 title: "*tar* 压缩选项区别"
 date: 2026-01-15 15:35:40
+thumbnail: /images/thumbnails/thumb_use-tar.jpg
 categories: [DL-notes]
 ---
 # *tar* 压缩选项区别

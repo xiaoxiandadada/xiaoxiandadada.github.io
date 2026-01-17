@@ -1,6 +1,7 @@
 ---
 title: profit
 date: 2026-01-15 15:35:40
+thumbnail: /images/thumbnails/thumb_profit.jpg
 categories: [DL-notes]
 ---
 # profit

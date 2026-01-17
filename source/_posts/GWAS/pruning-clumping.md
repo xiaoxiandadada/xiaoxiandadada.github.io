@@ -1,6 +1,7 @@
 ---
 title: pruning and clumping
 date: 2026-01-15 15:35:40
+thumbnail: /images/thumbnails/thumb_pruning-clumping.jpg
 categories: [GWAS]
 ---
 # pruning and clumping

@@ -1,6 +1,7 @@
 ---
 title: 快速了解 GWAS 领域需要知道的内容
 date: 2026-01-15 15:35:40
+thumbnail: /images/thumbnails/thumb_outline.jpg
 categories: [GWAS]
 ---
 # 快速了解 GWAS 领域需要知道的内容

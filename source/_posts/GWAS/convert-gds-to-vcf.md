@@ -1,6 +1,7 @@
 ---
 title: Convert GDS Format to VCF Format
 date: 2024-12-06
+thumbnail: /images/thumbnails/thumb_convert-gds-to-vcf.jpg
 categories: [GWAS]
 ---
 

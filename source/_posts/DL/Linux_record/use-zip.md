@@ -1,6 +1,7 @@
 ---
 title: 处理 plink 文件的压缩
 date: 2026-01-15 15:35:40
+thumbnail: /images/thumbnails/thumb_use-zip.jpg
 categories: [DL-notes]
 ---
 # 处理 plink 文件的压缩

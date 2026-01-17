@@ -1,6 +1,7 @@
 ---
 title: pruning
 date: 2026-01-15 15:35:40
+thumbnail: /images/thumbnails/thumb_pruning.jpg
 categories: [GWAS]
 ---
 # pruning

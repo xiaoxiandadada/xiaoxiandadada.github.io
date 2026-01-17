@@ -1,6 +1,7 @@
 ---
 title: 计算亲缘关系矩阵（Genetic Relationship Matrix，GRM）
 date: 2026-01-15 15:35:40
+thumbnail: /images/thumbnails/thumb_GRM.jpg
 categories: [GWAS]
 ---
 # 计算亲缘关系矩阵（Genetic Relationship Matrix，GRM）
